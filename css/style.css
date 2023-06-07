@@ -1,0 +1,51 @@
+/*////////////////////////////////*/
+/* example from video */
+/*////////////////////////////////*/
+body {
+    margin: 20px 0 0 0;
+}
+.container-1 {
+    width: 800px;
+    margin: 0 auto;
+    background-color: silver;
+    display: flex;
+    vertical-align: baseline;
+}
+.col, .col-2 {
+    background-color: blanchedalmond;
+    padding: 10px;
+    font-size: 1.2rem;
+    flex: 1;
+    margin: 5px;
+}
+.col-2 {
+    flex: 2;
+}
+
+/*////////////////////////////////*/
+/* assignment */
+/*////////////////////////////////*/
+
+.container-2 {
+    width: 100%;
+    margin: 20px 0 0 0;
+}
+.row {
+    color: #ffffff;
+    font-size: 1.2rem;
+    display: flex;
+}
+.col-container-2, .col-2-container-2, .col-3-container-2 {
+    background-color:#73A1A9;
+    margin: 5px;
+    padding: 10px;
+}
+.col-container-2 {
+    flex: 1;
+}
+.col-2-container-2 {
+    flex: 2;
+}
+.col-3-container-2 {
+    flex: 3;
+}
